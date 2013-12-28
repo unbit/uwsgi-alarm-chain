@@ -16,3 +16,9 @@ alarm = three log:nope
 alarm = combo chain:one,two,three
 ...
 ```
+
+the plugin is 2.0-friendly, so you can easily build it with:
+
+```sh
+uwsgi --build-plugin uwsgi-alarm-chain
+```
